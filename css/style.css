@@ -1,7 +1,22 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: ##f8fbfd;
+  color: #192938;
+  font-size: 16px;
+  line-height: normal;
 }
+
+h1 {
+  font-size: 2.8em;
+padding-top: 15px;
+  }
+
+h3 {
+  font-size: 1.5em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  }
+
 
 nav {
   background-color: rgba(0,0,0,.5);
@@ -49,4 +64,14 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color:#0070BC;
+}
+p { padding-bottom: 15px;
 }
